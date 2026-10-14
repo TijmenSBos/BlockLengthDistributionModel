@@ -1,5 +1,6 @@
 function [BLDA,BLDB] = BlocklengthdeterminatorMSMS(fragmentmatrix,nmax,maxfragsize,x0)
 %  MATLAB 2024a code for determining the block length distribution of a copolymer from a fragment table obtained with MS/MS.
+%  This code is subject to the CC-BY-NC-ND-4.0 license.
 %
 % Input:    fragmentmatrix: fragment matrix. [A0B0 A1B0 A2B0; A1B0 A2B1 A2B2; A2B0 A2B1 A2B2]
 %           nmax: Maximum block length that is evaluated.
